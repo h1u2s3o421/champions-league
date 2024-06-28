@@ -1,0 +1,22 @@
+.mainNews{
+    overflow: hidden;
+    position: relative;
+    .image1{
+        transition: all 1s;
+        filter: brightness(0.8);
+    }
+    .image1:hover{
+        transform: scale(1.2);
+    }
+    .text{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+
+.blueGradient{
+    background-image: linear-gradient(to bottom, #031390, #030744);
+}
